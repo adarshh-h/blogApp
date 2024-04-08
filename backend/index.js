@@ -16,7 +16,7 @@ const secret = "asdfghjkzxcvbnmqwertyuiop";
 // app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(cors(
   {
-     origin:["https://blog-app-frontend-bay.vercel.app"],
+     origin:["https://blog-app-frontend-bay.vercel.app/"],
      methods:["POST","GET"],
      credentials: true
   }
