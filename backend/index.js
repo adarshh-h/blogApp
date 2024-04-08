@@ -18,7 +18,7 @@ app.use(cors(
   {
      origin: "https://blog-app-frontend-bay.vercel.app",
      methods:["POST","GET"],
-     credentials: true
+     credentials: true,
   }
 ));
   
